@@ -1,0 +1,19 @@
+const inputEvro = document.getElementById("evro");
+const inputDinar = document.getElementById("dinar");
+
+const forma = document.getElementById("evro-dinar");
+
+
+forma.addEventListener("submit", function(event){
+    event.preventDefault();
+    const vrednostUEvrima = inputEvro.value;
+    const vrednostUDinarima = vrednostUEvrima * 117.27;
+    inputDinar.value = vrednostUDinarima;
+})
+
+forma.addEventListener("submit", function(event){
+    event.preventDefault();
+    const vrednostUDinarima = inputDinar.value;
+    const vrednostUEvrima = vrednostUDinarima / 117.27;
+    inputEvro.value = vrednostUEvrima;
+})
