@@ -1,0 +1,42 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  color: chocolate;
+}
+/******************************************
+/* form
+/*******************************************/
+#container{
+  
+}
+#login{
+  width: 300px;
+  background-color: darkgray;
+  border: 5px solid brown;
+  border-radius: 15%;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+#password, #ime{
+  margin: 20px 0;
+  border: 5px solid darkred;
+}
+
+button{
+  background-color: brown;
+  border: 5px solid darkred;
+  border-radius: 30%;
+  color: aliceblue;
+  margin-top: 10%;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
